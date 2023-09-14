@@ -8,12 +8,12 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-blue-500">
+    <nav className="bg-black">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <a href="/" className="text-white text-2xl font-bold">
-              Hak's Phone Store
+              Hak's Website
             </a>
           </div>
           <div className="hidden md:block">
@@ -24,11 +24,11 @@ function Navbar() {
               <a href="/about" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
                 About
               </a>
-              <a href="#" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                Services
+              <a href="/login" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+                Login
               </a>
-              <a href="#" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
-                Contact
+              <a href="/register" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+                Register
               </a>
             </div>
           </div>
@@ -56,11 +56,11 @@ function Navbar() {
             <a href="/about" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
               About
             </a>
-            <a href="#" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
-              Services
+            <a href="/login" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
+              Login
             </a>
-            <a href="#" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
-              Contact
+            <a href="/register" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
+              Register
             </a>
           </div>
         </div>
