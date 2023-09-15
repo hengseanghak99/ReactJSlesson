@@ -24,6 +24,9 @@ function Navbar() {
               <a href="/about" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
                 About
               </a>
+              <a href="/product" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+                Product
+              </a>
               <a href="/login" className="text-white hover:bg-blue-600 px-3 py-2 rounded-md text-sm font-medium">
                 Login
               </a>
@@ -55,6 +58,9 @@ function Navbar() {
             </a>
             <a href="/about" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
               About
+            </a>
+            <a href="/product" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
+              Product
             </a>
             <a href="/login" className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-600 hover:text-gray-200">
               Login
