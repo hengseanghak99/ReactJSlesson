@@ -7,6 +7,8 @@ import Header from "./components/Layout/Header/Header";
 import AboutPage from "./components/UserPage/AboutPage";
 import Footer from "./components/Layout/Footer/Footer";
 import NotfoundPage from "./components/UserPage/NotfoundPage";
+import Product from "./components/Testing/product";
+import productInfos from "./components/Testing/producInfos";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage/>}/>
         <Route path="/about" element={<AboutPage/>}></Route>
+        <Route path="/product" element={<Product/>}></Route>
         <Route path="/register" element={<ResigerPage/>}></Route>
         <Route path="/login" element={<LoginPage/>}></Route>
         <Route path="*" element={<NotfoundPage/>}></Route>
@@ -25,3 +28,5 @@ function App() {
 }
 
 export default App;
+
+
