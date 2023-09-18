@@ -1,9 +1,21 @@
 import React from 'react';
 import "./css/HomePage.css";
+import ImageCarousel from './usercomponets/Carousel';
+import CategoryList from './usercomponets/Categories';
 
 const HomePage = () => {
   return (
     <div>
+      <section id="carousel">
+        <div className='md:container md:mx-auto'>
+          <ImageCarousel />
+        </div>
+      </section>
+      <section id="category">
+        <div className='md:container md:mx-auto'>
+          <CategoryList/>
+        </div>
+      </section>
       <section id="feature">
 
         <div

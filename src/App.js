@@ -8,7 +8,6 @@ import AboutPage from "./components/UserPage/AboutPage";
 import Footer from "./components/Layout/Footer/Footer";
 import NotfoundPage from "./components/UserPage/NotfoundPage";
 import Product from "./components/Testing/product";
-import productInfos from "./components/Testing/producInfos";
 
 function App() {
   return (
