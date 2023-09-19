@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/categories.css";
-import categories from "../../Testing/categories";
+import categories from "../../Data/categories";
 
 function CategoryList() {
     return (

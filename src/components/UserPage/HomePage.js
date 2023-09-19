@@ -1,7 +1,9 @@
 import React from 'react';
 import "./css/HomePage.css";
-import ImageCarousel from './usercomponets/Carousel';
-import CategoryList from './usercomponets/Categories';
+import ImageCarousel from './HomeComponents/Carousel';
+import CategoryList from './HomeComponents/Categories';
+import BrandButton from './HomeComponents/BrandsButton';
+import NewArrivals from './HomeComponents/NewArrival';
 
 const HomePage = () => {
   return (
@@ -12,8 +14,19 @@ const HomePage = () => {
         </div>
       </section>
       <section id="category">
-        <div className='md:container md:mx-auto'>
-          <CategoryList/>
+        <div className='md:container md:mx-auto rounded'>
+          <CategoryList />
+        </div>
+      </section>
+    
+      <section id="brand-button">
+        <div className='md:container md:mx-auto rounded'>
+          <BrandButton />
+        </div>
+      </section>
+      <section id="new-arrival">
+      <div className='md:container md:mx-auto rounded'>
+          <NewArrivals/>
         </div>
       </section>
       <section id="feature">

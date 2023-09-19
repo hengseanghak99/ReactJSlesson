@@ -7,7 +7,7 @@ import Header from "./components/Layout/Header/Header";
 import AboutPage from "./components/UserPage/AboutPage";
 import Footer from "./components/Layout/Footer/Footer";
 import NotfoundPage from "./components/UserPage/NotfoundPage";
-import Product from "./components/Testing/product";
+import Product from "./components/Data/product";
 
 function App() {
   return (
